@@ -1,6 +1,7 @@
 import telebot
 
-bot = telebot.TeleBot('5015061513:AAG5Ggu3jz_k5xkjsg_-nOKzOSaTGDIBPxU')
+TOKEN = ''
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def hand(ms):
